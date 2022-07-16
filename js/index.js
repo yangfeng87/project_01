@@ -5,7 +5,7 @@ $('.monitor .tabs').on('click', 'a', function () {
     $('.monitor .content').eq(index).show().siblings('.content').hide();
 });
 
-// 1. 先克隆marquee里面所有的行（row）
+// 1. 克隆marquee里面所有的行（row）
 $(".marquee-view .marquee").each(function () {
     // console.log($(this));
     var rows = $(this)
